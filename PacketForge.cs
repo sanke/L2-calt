@@ -246,9 +246,6 @@ namespace l2cAlt
         {
             byte[] login_info = new byte[128];
 
-            string name = "sanke";
-            string password = "ponulis";
-
             login_info[0x5B] = 0x24;
             
             for (int i = 0; i < name.Length; i++)
